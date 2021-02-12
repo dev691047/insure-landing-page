@@ -1,0 +1,330 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+body{
+    font-family: 'Karla', sans-serif;
+    /* width:1440px;
+    border:1px solid blue;
+    margin:0 auto 0 auto; */
+   
+}
+
+/*************nav-bar*****************/
+.navbar{
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right: auto;
+    font-weight: 400;
+    /* border:1px solid red; */
+    height:70px
+    
+}
+
+.navbar-nav{
+
+ margin-left: auto;    
+  
+}
+.nav-item span{
+    background-color:white;
+    height:30px;
+
+}
+.nav-item span:hover{
+    text-decoration: underline;
+    color:black;
+    cursor: pointer;
+}
+.x{
+    border-radius:5px;
+    /* height:30px;
+    margin-top:5px;
+    padding-bottom:10px; */
+}
+/*****************end****************/
+ 
+main{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+.bg-color{
+    height:500px;
+    width:1240px;
+    background-color: hsl(256, 26%, 20%);
+    position:absolute;
+    z-index:-1;
+}
+
+
+
+/******************************************************************first-section***************************************************/
+.first-sec{
+    height:700px;
+     /* max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;  */
+    margin-bottom: 20px;
+
+}
+.f-s-f-d{
+    height:500px;
+    background-color: hsl(256, 26%, 20%);
+    display: flex;
+    color:white;
+    flex-direction:row;
+    max-width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.f-s-s-d{
+    height: 200px;
+    /* border: 1px solid rgb(26, 24, 24); */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 0; */
+}
+
+.f-s-f-d-s-d img{
+ width:100%;
+ height:100%;
+ margin-top:100px;
+ /* margin-left:40px;  */
+}
+#right-bg{
+    position:absolute;
+    z-index: +1;
+    left:1070px;
+    height:55%;
+}
+#left-bg{
+position:absolute;
+z-index:+1;
+height:55%;
+left:140px;
+top:420px;
+
+
+}
+ .f-s-f-d-f-d{
+     /* border:1px solid rgb(165, 161, 161); */
+    max-width:600px;
+    
+} 
+.f-s-f-d-f-d button{
+    border-radius: 4px;
+    background-color: white;
+    font-family: "karla";
+    font-weight: 400;
+}
+.f-s-f-d-s-d{
+ 
+    /* border:1px solid rgb(61, 57, 57); */
+    /* max-width: 400px; */
+
+} 
+h1{
+    margin-top:80px;
+    font-family:"DM";
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+p{
+    font-weight: 400;
+    color:hsl(0, 2%, 84%);
+    font-size: 16px;
+}
+
+/**************************end**********************************/
+
+
+
+/*********************************************************************************second section***************/
+
+.second-sec{
+    height:700px;
+    width:1000px;
+    /* border:1px solid black; */
+    margin:-20px auto 0 auto;
+}
+.price-div{
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.price-div-1,.price-div-2,.price-div-3{
+    /* border:1px solid blue; */
+    max-width:310px;
+    height:300px;
+  
+
+}
+.price-div-3{
+    /* margin-right:0 */
+}
+.second-sec p{
+    color: hsl(273, 4%, 51%);
+    font-size: 14px;
+    line-height: 20px;
+}
+.second-sec img{
+    padding-top: 20px;
+    height:90px
+}
+h3{
+    font-size: 25px;
+    font-family:"DM";
+    font-weight: 700;
+    margin-top: 20px;;
+    letter-spacing:0;
+}
+h2{
+    font-family:"DM";
+    padding-top: 40px;
+    font-size: 60px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+d{
+    font-family:"DM";
+    font-size: 40px;
+    line-height: 25px;
+    font-weight: 700;
+
+}
+.second-div-sec-div{
+    background-color:hsl(256, 26%, 20%);
+    color:white;
+    height:180px;
+    background-image: url("./images/bg-pattern-how-we-work-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.second-div-sec-div{
+    /* border:1px solid red; */
+  margin-bottom: 100px;
+
+}
+.second-div-sec-div-f-d{
+    /* border:2px solid red; */
+    width:600px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.second-div-sec-div-s-d{
+    /* border:2px solid red; */
+    float:right;
+    width:200px;
+    margin-top:70px ;
+}
+.second-div-sec-div button{
+   
+    color:hsl(270, 1%, 38%);
+    font-size: 12px;
+    background-color: white;
+    border-radius: 3px;
+
+   
+
+
+}
+h4{
+   
+   font-family: "DM";
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 30px;
+
+}
+/**********************************************************END**************************************************/
+
+/***************************************third-section*************************************/
+.footer-bg{
+    position:absolute;
+    z-index:-2;
+    width:1240px;
+    margin:0 auto 0 auto;
+    /* border:1px solid blue; */
+    height:350px;
+    background-image: url("./images/bg-pattern-footer-desktop.svg");
+    background-repeat: no-repeat;
+    background-color:  hsl(0, 0%, 98%)
+}
+
+.third-sec{
+    max-width: 1000px;
+    margin:0 auto 0 auto;
+    height:350px;
+    /* border:2px solid black; */
+    padding-top: 20px;
+   
+}
+.third-sec-f-d{
+    padding-top: 20px;
+    height:60px;
+    padding-bottom: 30px;
+    /* border:1px solid black */
+}
+hr{
+    border-bottom: none;
+    color: rgb(131, 131, 131);
+}
+.third-sec-s-d{
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.x{
+    float:right;
+    padding-left:20px;
+    opacity: 0.7;
+}
+.x:hover{
+    opacity:1;
+    cursor: pointer;
+  
+    
+}
+.f{
+
+    width:210px;
+    height:200px;
+    text-transform: uppercase;
+    
+}
+span p{
+
+    color:rgb(54, 52, 52);
+    font-family:"karla";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: 2px;
+}
+span p:hover{
+    text-decoration: underline;
+}
+.footer-heading{
+    font-size:14px;
+    margin-bottom: 20px;
+    color:rgb(122, 120, 120);
+    font-family:"karla";
+    font-weight: 700;
+    /* word-spacing: 4px; */
+    letter-spacing: 2px;
+}
+/******************end************/
